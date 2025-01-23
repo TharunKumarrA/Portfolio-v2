@@ -11,6 +11,8 @@ const ProjectCardContainer = ({ projects }) => {
     setImagePosition({ x: e.clientX, y: e.clientY });
   };
 
+  const isMobile = window.innerWidth < 768;
+
   return (
     <div onMouseMove={handleMouseMove} className="relative">
       {projects.map((project) => (
@@ -21,7 +23,7 @@ const ProjectCardContainer = ({ projects }) => {
           onMouseLeave={() => setActiveImageSrc(null)}
         />
       ))}
-      {activeImageSrc && (
+      {!isMobile && activeImageSrc && (
         <div 
           className="fixed z-50 pointer-events-none"
           style={{ 
