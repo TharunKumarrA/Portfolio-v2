@@ -23,7 +23,7 @@ const tailwindConfig = {
         h6: ['1.333rem', { lineHeight: '1.6' }], // 21.33px
         p: ['1rem', { lineHeight: '1.6' }],      // 16px
         small: ['0.75rem', { lineHeight: '1.4' }], // 12px
-        xs: ['0.563rem', { lineHeight: '1.3' }], // 9px
+        vsmall: ['0.563rem', { lineHeight: '1.3' }], // 9px
       },
       fontFamily: {
         heading: ["var(--font-space-mono)", "monospace"], // Use Space Mono

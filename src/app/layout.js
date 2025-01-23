@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${spaceMono.variable} ${rubik.variable} antialiased`}
+        className={`${spaceMono.variable} ${rubik.variable} antialiased text-text bg-background`}
       >
         {children}
       </body>
