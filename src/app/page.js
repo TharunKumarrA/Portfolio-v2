@@ -1,5 +1,10 @@
+import Grid from "./components/Grid";
 import { NavigationBar } from "./components/NavigationBar";
+import ProfileCard from "./components/ProfileCard";
 import ProjectCardContainer from "./components/ProjectCardContainer.jsx";
+import TextUnderlineEffect from "./components/UnderlinedText";
+import AboutAttributes from "./components/AboutAttributes";
+
 export default function Home() {
   const projectData = [
     {
@@ -24,11 +29,25 @@ export default function Home() {
     },
   ];
 
+  const data = [
+    {
+      title: "Full-Stack Developer",
+      specialization: "Specialized in UI/UX Design",
+      education:
+        "Generative AI & LLM Enthusiast\nCSE '26 | Amrita University\nIIT Madras Online BSc",
+    },
+  ];
+
   return (
     <>
-      <NavigationBar />
-      Tharun&apos;s Portfolio
+      <div className="flex flex-col">
+          <TextUnderlineEffect text="THARUN" />
+          <TextUnderlineEffect text="KUMARR A" />
+      </div>
+      <div className="flex justify-center items-center mt-12"></div>
       <ProjectCardContainer projects={projectData} />
+      <ProfileCard data={data} />
+      <AboutAttributes />
     </>
   );
 }

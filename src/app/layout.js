@@ -1,5 +1,6 @@
 import { Space_Mono, Rubik } from "next/font/google";
 import "./globals.css";
+import { NavigationBar } from "./components/NavigationBar";
 
 const spaceMono = Space_Mono({
   variable: "--font-space-mono",
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${spaceMono.variable} ${rubik.variable} antialiased text-text bg-background`}
       >
+        <NavigationBar />
         {children}
       </body>
     </html>
