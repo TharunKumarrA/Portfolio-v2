@@ -1,7 +1,9 @@
+import ExpMainDiv from "../components/ExpMainDiv"
+
 export default function Experience() {
   return (
     <div>
-      <h1>Experience</h1>
+      <ExpMainDiv />
     </div>
   )
 }
