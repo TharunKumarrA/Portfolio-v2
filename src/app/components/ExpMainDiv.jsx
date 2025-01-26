@@ -44,6 +44,11 @@ const ExpMainDiv = () => {
     <div className="relative w-full max-w-4xl mx-auto mt-24 lg:mb-52">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
         <div className="flex flex-col items-start space-y-8 w-full px-4">
+          {/* Mobile Click Prompt */}
+          <div className="w-full text-center text-sm text-white opacity-25 lg:hidden">
+            * Click image to view next experience
+          </div>
+
           <motion.div
             key={`image-${currentIndex}`}
             initial={{ opacity: 0, x: 50 }}
@@ -98,7 +103,7 @@ const ExpMainDiv = () => {
             </motion.div>
           </AnimatePresence>
 
-          <div className="w-full order-4 lg:absolute lg:-bottom-48 lg:-left-72">
+          <div className="w-full order-4 lg:absolute lg:-bottom-44 lg:-left-72">
             <AboutAttributes />
           </div>
         </div>
