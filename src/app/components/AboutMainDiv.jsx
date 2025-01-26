@@ -1,6 +1,6 @@
-import TextUnderlineEffect from "./underlinedText";
-import ProfileImage from "./profileImage";
-import ProfileCard from "./profileCard";
+import TextUnderlineEffect from "./UnderlinedText";
+import ProfileImage from "./ProfileImage";
+import ProfileCard from "./ProfileCard";
 
 const aboutMainDiv = () => {
   const data = [

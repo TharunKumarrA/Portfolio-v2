@@ -10,7 +10,7 @@ export function NavigationBar() {
     { label: "ABT", href: "/about" },
     { label: "PRJ", href: "/projects" },
     { label: "EXP", href: "/experience" },
-    { label: "RES", href: "/resources" },
+    { label: "RES", href: "/resume" },
   ];
 
   return (
