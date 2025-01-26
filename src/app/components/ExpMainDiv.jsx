@@ -79,7 +79,7 @@ const ExpMainDiv = ({ experienceData }) => {
           </AnimatePresence>
 
           <div className="w-full order-4 lg:absolute lg:-bottom-44 lg:-left-72">
-            <AboutAttributes />
+            {currentExp.attList}
           </div>
         </div>
       </div>
