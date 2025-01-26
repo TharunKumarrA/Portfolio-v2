@@ -9,13 +9,9 @@ const Hero = () => {
         <GridWithDownArrow />
       </div>
       <div className="absolute text-small lg:text-p font-body top-2 left-8 lg:top-4 lg:left-44 z-10">
-        <span>
-          THARUN&apos;S
-        </span>
+        <span>THARUN&apos;S</span>
         <br />
-        <span className="ml-2 lg:ml-4">
-          PORTFOLIO
-        </span>
+        <span className="ml-2 lg:ml-4">PORTFOLIO</span>
       </div>
       <div className="absolute -bottom-44 right-2 lg:-top-16 lg:right-80 z-10 scale-[64%] lg:scale-50">
         <TextUnderlineEffect text="DARE MIGHTY" />
@@ -30,7 +26,8 @@ const Hero = () => {
         <span>EXPERIENCES</span>
       </div>
       <div className="absolute z-10 -bottom-[270px] lg:-bottom-28 lg:right-24 font-normal text-p text-left w-64 lg:w-80 mx-8 lg:mx-0">
-      Crafting innovative solutions through creativity and tech. Designing experiences that inspire and make an impact.
+        Crafting innovative solutions through creativity and tech. Designing
+        experiences that inspire and make an impact.
       </div>
     </div>
   );

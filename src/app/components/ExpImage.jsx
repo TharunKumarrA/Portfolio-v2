@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
-const ExpImage = ({ src, alt }) => {
+const ExpImage = ({ src, alt, onClick }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -20,7 +20,7 @@ const ExpImage = ({ src, alt }) => {
   }, []);
 
   const handleMouseMove = (e) => {
-    if (containerRef.current) {
+    if (containerRef.current && !isMobile) {
       const rect = containerRef.current.getBoundingClientRect();
       setPosition({
         x: e.clientX - rect.left,
@@ -32,18 +32,24 @@ const ExpImage = ({ src, alt }) => {
   return (
     <div
       ref={containerRef}
-      className="relative overflow-hidden"
-      style={{
-        width: "585px",
-        height: "390px",
-        aspectRatio: "3:2",
-      }}
+      className={`relative overflow-hidden w-full max-w-[380px] lg:max-w-[585px] mx-auto ${
+        isMobile ? "aspect-[3/2]" : "aspect-[3/2]"
+      } cursor-pointer`}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
       onMouseMove={handleMouseMove}
+      onClick={onClick}
     >
       <div className="relative w-full h-full">
-        <Image src={src} alt={alt} fill style={{ objectFit: "cover" }} />
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+          }}
+        />
       </div>
       {!isMobile && isHovering && (
         <div

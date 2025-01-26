@@ -2,7 +2,7 @@ import TextUnderlineEffect from "./UnderlinedText";
 
 const ExpPositionContent = ({ role, company, details }) => {
   return (
-    <div className="flex flex-col gap-4 px-8 md:px-4">
+    <div className="flex flex-col gap-4 pr-8 md:px-4">
       <div className="flex flex-col gap-2">
         {role.map((role, index) => (
           <div className="" key={index}>
