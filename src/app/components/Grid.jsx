@@ -4,7 +4,7 @@ const SquareRow = ({ n, offset, mobile = false }) => {
   const squares = Array.from({ length: n }, (_, index) => (
     <div 
       key={index} 
-      className={`${mobile ? 'w-12 h-12' : 'lg:w-24 lg:h-24 w-12 h-12'} flex-shrink-0 border border-zinc-300`} 
+      className={`${mobile ? 'w-12 h-12' : 'lg:w-24 lg:h-24 w-12 h-12 opacity-50'} flex-shrink-0 border border-zinc-300`} 
     />
   ));
 
