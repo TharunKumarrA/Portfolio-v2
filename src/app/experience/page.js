@@ -1,6 +1,8 @@
 import ExpMainDiv from "../components/ExpMainDiv";
 import NSSAttributes from "../components/NSSAttributes";
-import AboutAttributes from "../components/AboutAttributes";
+import AnokhaAttributes from "../components/AnokhaAttributes";
+import IETEAttributes from "../components/IETEAttributes";
+import ASCIIAttributes from "../components/ASCIIAttributes";
 
 export default function Experience() {
   const experienceData = [
@@ -28,33 +30,33 @@ export default function Experience() {
       end: "MAR 2024",
       expDetails:
         "As a team lead in the Web Development team, I managed a group of developers to build and maintain the official website of Anokha. I contributed to the design, development, and deployment of the site, ensuring a seamless user experience. This role helped me enhance my technical skills, project management, and collaboration abilities.",
-      attList: <AboutAttributes />,
+      attList: <AnokhaAttributes />,
     },
     {
       expImg: "/LogicFlo.png",
       expImgAlt: "IEEE",
-      role: ["IEEE Student", "Member"],
-      company: "IEEE",
+      role: ["IETE Web", "Dev Head"],
+      company: "IETE",
       companyDetails:
-        "IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.",
+        "IETE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.",
       start: "JUL 2024",
       end: "MAR 2026",
       expDetails:
-        "As an IEEE member, I participated in workshops, seminars, and technical events to expand my knowledge and skills in various domains. I collaborated with peers on projects, research, and competitions, gaining valuable insights and experiences. These activities helped me stay updated on the latest trends, technologies, and innovations in the field of engineering.",
-      attList: <AboutAttributes />,
+        "As an IETE member, I participated in workshops, seminars, and technical events to expand my knowledge and skills in various domains. I collaborated with peers on projects, research, and competitions, gaining valuable insights and experiences. These activities helped me stay updated on the latest trends, technologies, and innovations in the field of engineering.",
+      attList: <IETEAttributes />,
     },
     {
       expImg: "/AI-Study-Mate.png",
-      expImgAlt: "Hackathons",
-      role: ["Hackathons", "Participant"],
-      company: "Hackathons",
+      expImgAlt: "Editor",
+      role: ["Editor", "& Designer"],
+      company: "ASCII - Dept of CSE",
       companyDetails:
-        "Hackathons are events where individuals or teams come together to solve problems, build projects, and showcase their skills.",
+        "ASCII is the official student-run magazine of the Department of Computer Science and Engineering at Amrita School of Engineering, Coimbatore.",
       start: "JAN 2025",
       end: "MAR 2026",
       expDetails:
-        "I participated in hackathons to challenge myself, learn new technologies, and work on innovative projects. I collaborated with diverse teams, brainstormed ideas, and developed solutions within a limited timeframe. These experiences honed my problem-solving, creativity, and adaptability, pushing me to think outside the box and explore new possibilities.",
-      attList: <AboutAttributes />,
+        "As an editor and designer for ASCII, I contributed articles, designs, and illustrations for the magazine. I collaborated with writers, artists, and editors to create engaging and informative content for the readers. This role allowed me to explore my creativity, communication, and storytelling skills, enhancing my overall writing and design abilities.",
+      attList: <ASCIIAttributes />,
     },
   ];
   return (
