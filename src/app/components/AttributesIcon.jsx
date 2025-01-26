@@ -3,9 +3,8 @@ import OuterCircle from "./svg/OuterCircle";
 
 const PublicSpeakingIcon = ({ name, svgSrc }) => {
   return (
-    <div className="relative inline-block group">
-      {/* Tooltip (above others on the y-axis) */}
-      <p className="absolute -top-8 left-1/2 -translate-x-1/2 text-text font-body group-hover:opacity-100 opacity-0 transition-opacity duration-300 text-center text-small min-w-24">
+    <div className="relative inline-block group scale-75 lg:scale-100">
+      <p className="absolute -top-6 lg:top-4 left-1/2 -translate-x-1/2 text-text font-body group-hover:opacity-100 opacity-0 transition-opacity duration-300 text-center text-small min-w-24">
         {name}
       </p>
       {/* Centered OuterCircle */}
