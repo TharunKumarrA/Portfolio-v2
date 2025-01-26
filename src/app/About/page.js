@@ -1,6 +1,7 @@
 import AboutAttributes from "../components/AboutAttributes";
 import AboutMainDiv from "../components/AboutMainDiv";
 
+
 export default function About() {
   return (
     <div className="mt-12">
