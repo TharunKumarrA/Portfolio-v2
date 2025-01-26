@@ -10,7 +10,7 @@ const ProjectDetails = ({ techStack, description, githubLink, link }) => {
       <div className="pt-4">
         <p className="text-h6 font-thin">{techStack.join(' | ')}</p>
       </div>
-      <div className="pt-4 max-w-3xl select-none pr-4 md:pr-0">
+      <div className="pt-4 max-w-3xl select-none pr-4 md:pr-0 text-justify">
         <p>{description}</p>
       </div>
       <div className="pt-8 flex items-center space-x-4">
