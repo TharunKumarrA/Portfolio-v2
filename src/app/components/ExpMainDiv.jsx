@@ -72,7 +72,7 @@ const ExpMainDiv = ({ experienceData }) => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.5 }}
-              className="sm:w-full lg:w-auto text-center order-5 lg:absolute lg:-bottom-40 lg:-right-64 max-w-md"
+              className="sm:w-full lg:w-auto text-left order-5 lg:absolute lg:-bottom-40 lg:-right-64 max-w-md"
             >
               {currentExp.expDetails}
             </motion.div>
