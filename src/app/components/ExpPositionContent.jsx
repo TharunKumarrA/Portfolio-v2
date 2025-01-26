@@ -13,7 +13,7 @@ const ExpPositionContent = ({ role, company, details }) => {
       <div className="text-h6 md:text-h5 font-heading text-text">
         {company}
       </div>
-      <div className="text-p font-body text-text max-w-lg">
+      <div className="hidden lg:block text-p font-body text-text max-w-lg">
         {details}
       </div>
     </div>
