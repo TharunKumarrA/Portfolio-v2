@@ -4,6 +4,10 @@ import ProfileCard from "./components/ProfileCard";
 import ProjectCardContainer from "./components/ProjectCardContainer.jsx";
 import TextUnderlineEffect from "./components/UnderlinedText";
 import AboutAttributes from "./components/AboutAttributes";
+import ArrowButton from "./components/ArrowButton";
+import ExpPositionContent from "./components/ExpPositionContent";
+import ExpDateRange from "./components/ExpDateRange";
+import ProfileImage from "./components/ProfileImage";
 
 export default function Home() {
   const projectData = [
@@ -44,10 +48,16 @@ export default function Home() {
           <TextUnderlineEffect text="THARUN" />
           <TextUnderlineEffect text="KUMARR A" />
       </div>
+      <ArrowButton />
       <div className="flex justify-center items-center mt-12"></div>
       <ProjectCardContainer projects={projectData} />
       <ProfileCard data={data} />
+      <ExpPositionContent role={["Frontend", "Developer"]} company="Company" details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." />
       <AboutAttributes />
+      <ExpDateRange start="Sep 2024" end="Dec 2024" />
+      <div className="flex justify-center items-center mt-12">
+        <ProfileImage imgSrc={"/Tharun_Kumarr.jpg"} altText={"Profile Picture"} />
+      </div>
     </>
   );
 }

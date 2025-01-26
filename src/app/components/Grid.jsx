@@ -20,7 +20,7 @@ const Grid = () => {
     { length: 10, offset: 0 },
     { length: 10, offset: 0 },
     { length: 10, offset: 0 },
-    { length: 7, offset: 2 }
+    { length: 7, offset: 1 }
   ];
 
   return (
