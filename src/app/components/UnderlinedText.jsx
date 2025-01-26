@@ -3,8 +3,10 @@ import React, { useState, useEffect } from "react";
 
 const TextUnderlineEffect = ({ text }) => {
   const [isMobile, setIsMobile] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -18,6 +20,9 @@ const TextUnderlineEffect = ({ text }) => {
   }, []);
 
   const scale = isMobile ? 1.15 : 2;
+
+  if (!isClient)
+    return <span className="text-h5 md:text-h3 font-heading">{text}</span>;
 
   return (
     <div className="relative inline-block">

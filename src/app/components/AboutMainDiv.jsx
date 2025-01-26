@@ -1,4 +1,4 @@
-import UnderlinedText from "./underlinedText";
+import TextUnderlineEffect from "./underlinedText";
 import ProfileImage from "./profileImage";
 import ProfileCard from "./profileCard";
 
@@ -16,9 +16,9 @@ const aboutMainDiv = () => {
     <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 mx-auto lg:mx-0 justify-center items-center px-2">
       {/* Name Section */}
       <div className="flex flex-col gap-1 lg:mr-16 lg:my-16 relative  -left-20 lg:-left-0 lg:-top-32">
-        <UnderlinedText text="THARUN" />
+        <TextUnderlineEffect text="THARUN" />
         <div className="ml-4 lg:ml-8">
-          <UnderlinedText text="KUMARR A" />
+          <TextUnderlineEffect text="KUMARR A" />
         </div>
       </div>
 
