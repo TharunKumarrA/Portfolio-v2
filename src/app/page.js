@@ -5,7 +5,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="h-screen mt-16">  
+      <div className="mb-96 lg:mb-0 lg:h-screen mt-16">  
         <Hero />
       </div>
       <FeaturedProjects />

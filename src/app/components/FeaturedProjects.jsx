@@ -25,7 +25,7 @@ const FeaturedProjects = () => {
   ];
 
   return (
-    <div className="pb-20">
+    <div className="pb-10 lg:pb-20">
       <div className="font-heading text-h5 pb-10 px-4">FEATURED PROJECTS</div>
       <ProjectCardContainer projects={projectData} />
     </div>
