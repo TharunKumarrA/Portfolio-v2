@@ -49,7 +49,7 @@ export const Footer = () => {
       >
         <div className="flex items-center gap-2 mb-2">
           <FaEnvelope size={20} />
-          <span className="text-h6 lg:text-h5 truncate max-w-[200px]">{email}</span>
+          <span className="text-h6 lg:text-h5 truncate max-w-[200px] lg:max-w-max">{email}</span>
           <button
             onClick={handleCopyEmail}
             className="text-text hover:text-opacity-50 ml-2"
