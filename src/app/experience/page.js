@@ -7,7 +7,7 @@ import ASCIIAttributes from "../components/ASCIIAttributes";
 export default function Experience() {
   const experienceData = [
     {
-      expImg: "/1.png",
+      expImg: "/DSC_0053.JPG",
       expImgAlt: "NSS",
       role: ["NSS Student", "Coordinator"],
       company: "NSS",
@@ -20,7 +20,7 @@ export default function Experience() {
       attList: <NSSAttributes />,
     },
     {
-      expImg: "/2.png",
+      expImg: "/DSC_0054.jpg",
       expImgAlt: "Anokha WebDev",
       role: ["Web", "Development"],
       company: "Anokha",
@@ -33,7 +33,7 @@ export default function Experience() {
       attList: <AnokhaAttributes />,
     },
     {
-      expImg: "/LogicFlo.png",
+      expImg: "/DSC_0055.JPG",
       expImgAlt: "IEEE",
       role: ["IETE Web", "Dev Head"],
       company: "IETE",
@@ -46,7 +46,7 @@ export default function Experience() {
       attList: <IETEAttributes />,
     },
     {
-      expImg: "/AI-Study-Mate.png",
+      expImg: "/DSC_0056.png",
       expImgAlt: "Editor",
       role: ["Editor", "& Designer"],
       company: "ASCII - Dept of CSE",
