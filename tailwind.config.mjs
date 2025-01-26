@@ -15,7 +15,7 @@ const tailwindConfig = {
         foreground: "var(--foreground)",
       },
       fontSize: {
-        h1: ['5.61rem', { lineHeight: '1.1' }],  // 90px
+        h1: ['4.8rem', { lineHeight: '1.1' }],  // 90px
         h2: ['4.209rem', { lineHeight: '1.2' }], // 67.34px
         h3: ['3.157rem', { lineHeight: '1.3' }], // 50.51px
         h4: ['2.369rem', { lineHeight: '1.4' }], // 37.9px
