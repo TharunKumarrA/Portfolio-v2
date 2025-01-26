@@ -13,7 +13,7 @@ export const RouteImage = () => {
 
   console.log(imageName);
   return (
-    <div className="absolute top-4 right-4 z-30">
+    <div className="absolute scale-75 lg:scale-100 top-6 right-4 lg:top-4 lg:right-4 z-30">
       <Image
         src={`/${imageName}`}
         alt="Route specific image"

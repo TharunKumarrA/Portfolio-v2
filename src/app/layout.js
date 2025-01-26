@@ -2,6 +2,7 @@ import { Space_Mono, Rubik } from "next/font/google";
 import "./globals.css";
 import { NavigationBar } from "./components/NavigationBar";
 import { RouteImage } from "./components/RouteImage"; 
+import { Footer } from "./components/footer";
 
 const spaceMono = Space_Mono({
   variable: "--font-space-mono",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <RouteImage />
         <NavigationBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
