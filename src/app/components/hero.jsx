@@ -17,7 +17,7 @@ const Hero = () => {
           PORTFOLIO
         </span>
       </div>
-      <div className="absolute -bottom-44 right-2 lg:top-[72px] lg:right-80 z-10 scale-50">
+      <div className="absolute -bottom-44 right-2 lg:top-[72px] lg:right-80 z-10 scale-[64%] lg:scale-50">
         <TextUnderlineEffect text="DARE MIGHTY" />
         <br />
         <TextUnderlineEffect text="THINGS" />
