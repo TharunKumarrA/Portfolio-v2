@@ -6,32 +6,7 @@ import ExpPositionContent from "./ExpPositionContent";
 import ExpDateRange from "./ExpDateRange";
 import AboutAttributes from "./AboutAttributes";
 
-const experienceData = [
-  {
-    expImg: "/1.png",
-    expImgAlt: "NSS",
-    role: ["NSS Student", "Coordinator"],
-    company: "NSS",
-    companyDetails:
-      "It's an active part of the National Service Scheme, focused on community welfare, environmental sustainability, and awareness programs.",
-    start: "JUL 2023",
-    end: "MAR 2025",
-    expDetails:
-      "As a coordinator and volunteer in NSS Unit 3, I took part in organizing awareness campaigns, cleanliness drives, and sustainability projects. I worked with peers to address social issues, promote education and health, and engage with local communities. These experiences strengthened my leadership, teamwork, and organizational skills.",
-  },
-  {
-    expImg: "/2.png",
-    expImgAlt: "Another Experience",
-    role: ["Another Role"],
-    company: "Another Company",
-    companyDetails: "Details about another experience",
-    start: "JAN 2022",
-    end: "DEC 2023",
-    expDetails: "Another experience description",
-  },
-];
-
-const ExpMainDiv = () => {
+const ExpMainDiv = ({ experienceData }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleImageClick = () => {
