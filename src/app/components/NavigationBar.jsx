@@ -6,7 +6,7 @@ export function NavigationBar() {
   const pathname = usePathname();
 
   const navigationItems = [
-    { label: "•", href: "/" },
+    { label: "🌌", href: "/" },
     { label: "ABT", href: "/about" },
     { label: "PRJ", href: "/projects" },
     { label: "EXP", href: "/experience" },
