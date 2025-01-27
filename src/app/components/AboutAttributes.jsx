@@ -7,7 +7,7 @@ import Space from './svg/Space';
 
 const AboutAttributes = () => {
   return(
-    <div className="flex flex-row gap-2 lg:gap-8">
+    <div className="flex flex-row gap-1 lg:gap-8">
       <AttIcon name="Drums" svgSrc={<Drums />} />
       <AttIcon name="Black Belt" svgSrc={<KarateBelt />} />
       <AttIcon name="Football" svgSrc={<Football />} />
