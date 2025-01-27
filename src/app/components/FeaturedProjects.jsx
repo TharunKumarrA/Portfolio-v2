@@ -1,4 +1,5 @@
 import ProjectCardContainer from "./ProjectCardContainer";
+import Link from "next/link";
 
 const FeaturedProjects = () => {
   const projectData = [
@@ -28,6 +29,14 @@ const FeaturedProjects = () => {
     <div>
       <div className="font-heading text-h5 pb-10 px-4">FEATURED PROJECTS</div>
       <ProjectCardContainer projects={projectData} />
+      <div className="flex justify-center pt-10">
+        <Link
+          href="/projects"
+          className="font-body text-lg border-2 border-text px-12 py-3 hover:bg-text hover:text-primary transition-colors duration-200"
+        >
+          More Projects
+        </Link>
+      </div>
     </div>
   );
 };

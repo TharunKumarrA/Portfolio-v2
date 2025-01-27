@@ -4,7 +4,7 @@ import { FiArrowDown } from "react-icons/fi";
 const DownArrowBox = () => {
   const handleClick = () => {
     window.scrollTo({
-      top: window.innerHeight,
+      top: window.innerHeight + 100,
       behavior: "smooth",
     });
   };
