@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const Grid = () => {
   return (
-    <div className="absolute inset-0 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
+    <div className="absolute inset-0 grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6">
       {[...Array(24)].map((_, index) => (
         <div
           key={index}
