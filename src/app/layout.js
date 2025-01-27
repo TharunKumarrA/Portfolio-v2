@@ -3,6 +3,7 @@ import "./globals.css";
 import { NavigationBar } from "./components/NavigationBar";
 import { RouteImage } from "./components/RouteImage";
 import { Footer } from "./components/footer";
+import { ClientLayout } from "./components/clientLayout";
 
 const spaceMono = Space_Mono({
   variable: "--font-space-mono",
@@ -61,10 +62,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${spaceMono.variable} ${rubik.variable} antialiased text-text bg-background relative`}
       >
-        <RouteImage />
-        <NavigationBar />
-        {children}
-        <Footer />
+        <ClientLayout>
+          <RouteImage />
+          <NavigationBar />
+          {children}
+          <Footer />
+        </ClientLayout>
       </body>
     </html>
   );
