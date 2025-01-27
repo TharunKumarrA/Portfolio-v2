@@ -5,7 +5,7 @@ import TextUnderlineEffect from "./UnderlinedText";
 const Hero = () => {
   return (
     <div className="relative">
-      <div className="absolute inset-0 -z-10 mx-16 lg:mx-52">
+      <div className="absolute inset-0 mx-16 lg:mx-52">
         <GridWithDownArrow />
       </div>
       <div className="absolute text-small lg:text-p font-body top-2 left-8 lg:top-4 lg:left-44 z-10">
