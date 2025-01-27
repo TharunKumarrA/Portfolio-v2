@@ -10,7 +10,7 @@ export default function About() {
         {/* Attributes Section */}
         <AboutAttributes />
         {/* Paragraph Section */}
-        <div className="relative max-w-[480px] text-p text-justify md:text-left lg:-top-12 lg:-left-10">
+        <div className="relative max-w-[480px] text-p text-justify lg:text-left lg:-top-12 lg:-left-10">
           Hey there, Vanakam! I&apos;m a developer and tech enthusiast with a
           passion for creating intuitive and impactful web experiences. I enjoy
           solving problems, turning ideas into functional designs, and building

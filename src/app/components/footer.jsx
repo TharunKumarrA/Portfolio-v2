@@ -45,17 +45,17 @@ export const Footer = () => {
 
   return (
     <footer
-      className="flex flex-col md:flex-row justify-between items-center p-6 bg-secondary text-text 
-      space-y-4 md:space-y-0 md:space-x-4 mt-10 lg:mt-20"
+      className="flex flex-col lg:flex-row justify-between items-center p-6 bg-secondary text-text 
+      space-y-4 lg:space-y-0 lg:space-x-4 mt-10 lg:mt-20"
     >
-      <div className="text-center md:text-left w-full md:w-auto">
+      <div className="text-center lg:text-left w-full lg:w-auto">
         <p className="text-h5 lg:text-h4 font-heading">Let's</p>
         <p className="text-h5 lg:text-h4 font-heading">Connect</p>
       </div>
 
       <div
-        className="flex flex-col items-center md:items-end w-full md:w-auto 
-        font-heading gap-4 md:mx-16"
+        className="flex flex-col items-center lg:items-end w-full lg:w-auto 
+        font-heading gap-4 lg:mx-16"
       >
         <div className="flex items-center gap-2 mb-2">
           <FaEnvelope size={20} />

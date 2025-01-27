@@ -18,7 +18,7 @@ const ProjectCard = ({
 
   return (
     <div
-      className={`relative flex overflow-hidden flex-col pt-24 pb-8 pl-20 text-text border-t border-b border-solid bg-secondary border-y-white max-md:pl-5 cursor-pointer group ${className}`}
+      className={`relative flex overflow-hidden flex-col pt-24 pb-8 pl-20 text-text border-t border-b border-solid bg-secondary border-y-white max-lg:pl-5 cursor-pointer group ${className}`}
       onClick={handleCardClick}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}

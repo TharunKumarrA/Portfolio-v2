@@ -11,7 +11,7 @@ const ProfileImage = ({ imgSrc, altText }) => {
         height={520}
         className="rounded-full mx-auto"
       />
-      <div className="absolute bottom-0 -left-10 md:bottom-2 md:left-2 transform scale-50 md:scale-75">
+      <div className="absolute bottom-0 -left-10 lg:bottom-2 lg:left-2 transform scale-50 lg:scale-75">
         <CosmosLogo />
       </div>
     </div>
