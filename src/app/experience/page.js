@@ -3,6 +3,7 @@ import NSSAttributes from "../components/NSSAttributes";
 import AnokhaAttributes from "../components/AnokhaAttributes";
 import IETEAttributes from "../components/IETEAttributes";
 import ASCIIAttributes from "../components/ASCIIAttributes";
+import LogicFloAttributes from "../components/LogicFloAttributes";
 
 export default function Experience() {
   const experienceData = [
@@ -17,7 +18,7 @@ export default function Experience() {
       end: "DEC 2024",
       expDetails:
         "Developed and delivered 5+ production-ready features for a live AI application using React and Django. Designed interactive interfaces with React Flow, enhanced user experience with custom solutions, and integrated external libraries while maintaining scalable code. Thrived in a fast-paced startup environment.",
-      attList: <></>,
+      attList: <LogicFloAttributes />,
     },
     {
       expImg: "/DSC_0053.JPG",
