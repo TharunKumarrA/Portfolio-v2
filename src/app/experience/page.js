@@ -12,11 +12,11 @@ export default function Experience() {
       role: ["NSS Student", "Coordinator"],
       company: "NSS",
       companyDetails:
-        "It's an active part of the National Service Scheme, focused on community welfare, environmental sustainability, and awareness programs.",
-      start: "JUL 2023",
+        "The National Service Scheme (NSS), started in 1969, promotes youth involvement in social welfare with the motto 'Not Me But You.' It fosters leadership, discipline, and community awareness through activities like health camps and disaster relief.",
+      start: "MAR 2023",
       end: "MAR 2025",
       expDetails:
-        "As a coordinator and volunteer in NSS Unit 3, I took part in organizing awareness campaigns, cleanliness drives, and sustainability projects. I worked with peers to address social issues, promote education and health, and engage with local communities. These experiences strengthened my leadership, teamwork, and organizational skills.",
+        "I have served as the Student Coordinator for NSS Unit-3, organizing and managing 7+ events, including a 6-day NSS Special Camp with 50+ participants and a blood donation camp with 170+ donors and 300+ attendees. I also led Drug Awareness Week, engaging 200+ participants, and contributed to the C20 Summit",
       attList: <NSSAttributes />,
     },
     {
@@ -25,11 +25,11 @@ export default function Experience() {
       role: ["Web", "Development"],
       company: "Anokha",
       companyDetails:
-        "Anokha is the annual tech fest of Amrita School of Engineering, Coimbatore.",
+        "Anokha, the National Techfest of Amrita Vishwa Vidyapeetham, Coimbatore campus, is a 3-day technical congregation of the brightest minds in India.",
       start: "DEC 2023",
       end: "MAR 2024",
       expDetails:
-        "As a team lead in the Web Development team, I managed a group of developers to build and maintain the official website of Anokha. I contributed to the design, development, and deployment of the site, ensuring a seamless user experience. This role helped me enhance my technical skills, project management, and collaboration abilities.",
+        "As a frontend web developer for Anokha 2024, I contributed to designing and building the tech fair's website, ensuring a seamless and engaging online presence. The role involved tackling tight deadlines, late-night coding sessions, and coordinating effectively with the team to deliver a robust platform that supported the event's success.",
       attList: <AnokhaAttributes />,
     },
     {
@@ -38,11 +38,11 @@ export default function Experience() {
       role: ["IETE Web", "Dev Head"],
       company: "IETE",
       companyDetails:
-        "IETE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.",
-      start: "JUL 2024",
-      end: "MAR 2026",
+        "The IETE Club at Amrita Vishwa Vidyapeetham bridges computer science and electronics, offering opportunities in AI, web development, robotics, and event management through workshops, hackathons, and guest lectures.",
+      start: "NOV 2024",
+      end: "Present",
       expDetails:
-        "As an IETE member, I participated in workshops, seminars, and technical events to expand my knowledge and skills in various domains. I collaborated with peers on projects, research, and competitions, gaining valuable insights and experiences. These activities helped me stay updated on the latest trends, technologies, and innovations in the field of engineering.",
+        "As Web Development Lead for a team of 7, I oversaw the design, coding, and deployment of web solutions, ensuring timely delivery and high quality. I mentored team members, facilitated communication, and was actively involved in conducting workshops to enhance skills within the team.",
       attList: <IETEAttributes />,
     },
     {
@@ -55,7 +55,7 @@ export default function Experience() {
       start: "JAN 2025",
       end: "MAR 2026",
       expDetails:
-        "As an editor and designer for ASCII, I contributed articles, designs, and illustrations for the magazine. I collaborated with writers, artists, and editors to create engaging and informative content for the readers. This role allowed me to explore my creativity, communication, and storytelling skills, enhancing my overall writing and design abilities.",
+        "As an editor and designer for ASCII, I contributed articles, designs, and illustrations for the magazine. I collaborated with student writers and editors to create engaging and informative content for the readers. This role allowed me to explore my creativity, communication, and storytelling skills, enhancing my overall writing and design abilities.",
       attList: <ASCIIAttributes />,
     },
   ];
