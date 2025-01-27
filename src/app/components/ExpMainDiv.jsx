@@ -16,7 +16,7 @@ const ExpMainDiv = ({ experienceData }) => {
   const currentExp = experienceData[currentIndex];
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto mt-24 lg:mb-52">
+    <div className="relative w-full max-w-4xl mx-auto mt-12 lg:mb-52">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
         <div className="flex flex-col items-start space-y-8 w-full px-4">
           {/* Mobile Click Prompt */}
