@@ -7,6 +7,19 @@ import ASCIIAttributes from "../components/ASCIIAttributes";
 export default function Experience() {
   const experienceData = [
     {
+      expImg: "/LogicFlo.png",
+      expImgAlt: "LogicFlo",
+      role: ["Full-stack", "Intern"],
+      company: "LogicFlo",
+      companyDetails:
+        "LogicFlo is a startup revolutionizing life sciences with an AI workforce platform, automating workflows, ensuring compliance, and enhancing productivity.",
+      start: "OCT 2024",
+      end: "DEC 2024",
+      expDetails:
+        "Developed and delivered 5+ production-ready features for a live AI application using React and Django. Designed interactive interfaces with React Flow, enhanced user experience with custom solutions, and integrated external libraries while maintaining scalable code. Thrived in a fast-paced startup environment.",
+      attList: <></>,
+    },
+    {
       expImg: "/DSC_0053.JPG",
       expImgAlt: "NSS",
       role: ["NSS Student", "Coordinator"],
