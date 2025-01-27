@@ -21,15 +21,25 @@ export const Footer = () => {
   };
 
   const socialIcons = [
-    { name: "Github", tag: <FaGithub className="text-h4 hover:scale-110" /> },
     {
-      name: "LinkedIn",
-      tag: <FaLinkedin className="text-h4 hover:scale-110" />,
+      name: "",
+      tag: <FaGithub className="text-h4 hover:scale-110" />,
+      url: "https://github.com/TharunKumarrA",
     },
-    { name: "Twitter", tag: <FaTwitter className="text-h4 hover:scale-110" /> },
     {
-      name: "Instagram",
+      name: "",
+      tag: <FaLinkedin className="text-h4 hover:scale-110" />,
+      url: "https://linkedin.com/in/tharun-kumarr",
+    },
+    {
+      name: "",
+      tag: <FaTwitter className="text-h4 hover:scale-110" />,
+      url: "https://x.com/astro_tharun",
+    },
+    {
+      name: "",
       tag: <FaInstagram className="text-h4 hover:scale-110" />,
+      url: "https://instagram.com/astro_tharun_",
     },
   ];
 
@@ -49,7 +59,9 @@ export const Footer = () => {
       >
         <div className="flex items-center gap-2 mb-2">
           <FaEnvelope size={20} />
-          <span className="text-h6 lg:text-h5 truncate max-w-[200px] lg:max-w-max">{email}</span>
+          <span className="text-h6 lg:text-h5 truncate max-w-[200px] lg:max-w-max">
+            {email}
+          </span>
           <button
             onClick={handleCopyEmail}
             className="text-text hover:text-opacity-50 ml-2"
@@ -60,12 +72,19 @@ export const Footer = () => {
 
         <div className="flex gap-4 justify-center w-full">
           {socialIcons.map((icon, index) => (
-            <AttributesIcon
+            <a
               key={index}
-              name=""
-              svgSrc={icon.tag}
-              className="transform transition-transform duration-300 hover:scale-110"
-            />
+              href={icon.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-text hover:text-opacity-75 transition-opacity"
+            >
+              <AttributesIcon
+                name={icon.name}
+                svgSrc={icon.tag}
+                className="transform transition-transform duration-300 hover:scale-110"
+              />
+            </a>
           ))}
         </div>
       </div>
