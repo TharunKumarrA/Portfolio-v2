@@ -2,10 +2,11 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
-const ExpImage = ({ src, alt, onClick }) => {
+const ExpImage = ({ images, alt, onClick }) => {
   const [position, setPosition] = useState({ x: -50, y: -50 });
   const [isHovering, setIsHovering] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -18,6 +19,16 @@ const ExpImage = ({ src, alt, onClick }) => {
 
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
+
+  useEffect(() => {
+    const slideshowTimer = setInterval(() => {
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 3000); // Change image every 3 seconds
+
+    return () => clearInterval(slideshowTimer);
+  }, [images.length]);
 
   const handleMouseMove = (e) => {
     if (containerRef.current && !isMobile) {
@@ -41,19 +52,30 @@ const ExpImage = ({ src, alt, onClick }) => {
       onClick={onClick}
     >
       <div className="relative w-full h-full">
-        <Image
-          src={src}
-          alt={alt}
-          fill
-          style={{
-            objectFit: "cover",
-            objectPosition: "center",
-          }}
-        />
+        {images.map((src, index) => (
+          <div
+            key={src}
+            className="absolute w-full h-full transition-opacity duration-1000"
+            style={{
+              opacity: currentImageIndex === index ? 1 : 0,
+              zIndex: currentImageIndex === index ? 1 : 0,
+            }}
+          >
+            <Image
+              src={src}
+              alt={`${alt} ${index + 1}`}
+              fill
+              style={{
+                objectFit: "cover",
+                objectPosition: "center",
+              }}
+            />
+          </div>
+        ))}
       </div>
       {!isMobile && isHovering && (
         <div
-          className="absolute bg-black bg-opacity-80 rounded-full flex items-center justify-center"
+          className="absolute bg-black bg-opacity-80 rounded-full flex items-center justify-center z-10"
           style={{
             width: "80px",
             height: "80px",

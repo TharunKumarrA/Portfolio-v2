@@ -33,7 +33,7 @@ const ExpMainDiv = ({ experienceData }) => {
             className="flex justify-center w-full order-1"
           >
             <ExpImage
-              src={currentExp.expImg}
+              images={currentExp.expImages}
               alt={currentExp.expImgAlt}
               onClick={handleImageClick}
             />

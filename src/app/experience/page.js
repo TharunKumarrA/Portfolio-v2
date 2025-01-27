@@ -8,7 +8,7 @@ import LogicFloAttributes from "../components/LogicFloAttributes";
 export default function Experience() {
   const experienceData = [
     {
-      expImg: "/LogicFlo.png",
+      expImages: ["/LogicFlo.png"],
       expImgAlt: "LogicFlo",
       role: ["Full-stack", "Intern"],
       company: "LogicFlo",
@@ -21,7 +21,7 @@ export default function Experience() {
       attList: <LogicFloAttributes />,
     },
     {
-      expImg: "/DSC_0053.JPG",
+      expImages: ["/DSC_0470.JPG", "/DSC_0367.JPG", "/DSC_0053.JPG", "/DSC_1618.JPG", "/DSC_0173.JPG"],
       expImgAlt: "NSS",
       role: ["NSS Student", "Coordinator"],
       company: "NSS",
@@ -34,7 +34,7 @@ export default function Experience() {
       attList: <NSSAttributes />,
     },
     {
-      expImg: "/DSC_0054.jpg",
+      expImages: ["/DSC_0054.jpg", "/DSC_0054_1.jpg"],
       expImgAlt: "Anokha WebDev",
       role: ["Web", "Development"],
       company: "Anokha",
@@ -47,7 +47,7 @@ export default function Experience() {
       attList: <AnokhaAttributes />,
     },
     {
-      expImg: "/DSC_0055.JPG",
+      expImages: ["/DSC_0055.JPG"],
       expImgAlt: "IEEE",
       role: ["IETE Web", "Dev Head"],
       company: "IETE",
@@ -60,7 +60,7 @@ export default function Experience() {
       attList: <IETEAttributes />,
     },
     {
-      expImg: "/DSC_0056.png",
+      expImages: ["/DSC_0056.png"],
       expImgAlt: "Editor",
       role: ["Editor", "& Designer"],
       company: "ASCII - Dept of CSE",
