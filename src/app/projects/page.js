@@ -5,6 +5,17 @@ export default function Projects() {
   const projectData = [
     {
       number: 1,
+      name: "Portfolio",
+      tags: ["Frontend", "Personal", "Portfolio"],
+      techStack: ["NextJS", "TailwindCSS", "Framer"],
+      description:
+        "Developed my personal portfolio website to showcase my projects, skills, and experience. The site features a clean, minimalist design with smooth animations and transitions, providing an engaging user experience. I leveraged Next.js for server-side rendering, Tailwind CSS for styling, and Framer Motion for animations. The site is fully responsive and optimized for performance, ensuring a seamless experience across devices.",
+      githubLink: "https://github.com/TharunKumarrA/Portfolio-v2",
+      link: "https://tharunkumarra.tech",
+      image: "/Portfolio.png",
+    },
+    {
+      number: 2,
       name: "Anokha 2024",
       tags: ["Frontend", "Team project", "Uni-techfest"],
       techStack: ["NextJS", "TailwindCSS", "GSAP"],
@@ -14,7 +25,7 @@ export default function Projects() {
       image: "/Anokha2.png",
     },
     {
-      number: 2,
+      number: 3,
       name: "Mediclined",
       tags: ["Hackathon", "Dashboard", "Team project"],
       techStack: ["NextJS", "NodeJS", "MongoDB", "mySql", "ESP32"],
@@ -24,7 +35,7 @@ export default function Projects() {
       image: "/Mediclined.png",
     },
     {
-      number: 3,
+      number: 4,
       name: "Molecule Visualizer",
       tags: ["DSA", "Coursework", "3D Visualization"],
       techStack: ["ReactJS", "PlotlyJS", "Gemmini API", "MUI"],
@@ -34,7 +45,7 @@ export default function Projects() {
       image: "/Molecule-Visualizer.png",
     },
     {
-      number: 4,
+      number: 5,
       name: "Library Management V2",
       tags: ["Coursework", "Full-stack", "Database"],
       techStack: ["VueJS", "Flask", "SQLite", "TailwindCSS"],
@@ -44,7 +55,7 @@ export default function Projects() {
       image: "/LibraryMgmtV2.jpeg",
     },
     {
-      number: 5,
+      number: 6,
       name: "Library Management",
       tags: ["Backend", "CourseWork", "Database"],
       techStack: ["HTML", "CSS", "Jinja2", "Flask"],
@@ -54,7 +65,7 @@ export default function Projects() {
       image: "/LibraryMgmt.jpeg",
     },
     {
-      number: 6,
+      number: 7,
       name: "FC Team Forge",
       tags: ["Full-Stack", "Football", "Algorithm"],
       techStack: ["VueJS", "TailwindCSS", "Ngrok", "MySQL"],
@@ -64,7 +75,7 @@ export default function Projects() {
       image: "/FC-Team-Forge.png",
     },
     {
-      number: 7,
+      number: 8,
       name: "AI Study Mate",
       tags: ["Frontend", "AI Chatbot", "UI/UX"],
       techStack: ["VueJS", "TailwindCSS", "Gemmini API"],
@@ -74,7 +85,7 @@ export default function Projects() {
       image: "/AI-Study-Mate.png",
     },
     {
-      number: 8,
+      number: 9,
       name: "Union Budget Explorer",
       tags: ["DBMS", "CourseWork", "Team project"],
       techStack: ["VueJS", "MySQL", "NodeJS"],
