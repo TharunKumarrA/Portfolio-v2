@@ -27,6 +27,17 @@ export default function Projects() {
     },
     {
       number: 3,
+      name: "Amritotsavam 2025",
+      tags: ["Full-Stack", "College Fest", "Admin Dashboard"],
+      techStack: ["NextJS", "TailwindCSS", "NodeJS"],
+      description:
+        "Led the complete development of the official website for Amritotsavam 2025, the cultural fest of Amrita Vishwa Vidyapeetham. The platform successfully managed over 2,500 registrations across 50+ cultural events and workshops. In addition to the main site, an internal admin dashboard was built to help organizers track signups, manage events, and monitor real-time stats. Designed for performance and scalability, the system remained reliable during peak usage periods.",
+      githubLink: "https://github.com/TharunKumarrA/Amritotsavam_Frontend_2025",
+      link: "https://amritotsavam.cb.amrita.edu/",
+      image: "/Amritotsavam.png",
+    },
+    {
+      number: 4,
       name: "Portfolio",
       tags: ["Frontend", "Personal", "Portfolio"],
       techStack: ["NextJS", "TailwindCSS", "Framer"],
@@ -35,16 +46,6 @@ export default function Projects() {
       githubLink: "https://github.com/TharunKumarrA/Portfolio-v2",
       link: "https://tharunkumarra.tech",
       image: "/Portfolio.png",
-    },
-    {
-      number: 4,
-      name: "Anokha 2024",
-      tags: ["Frontend", "Team project", "Uni-techfest"],
-      techStack: ["NextJS", "TailwindCSS", "GSAP"],
-      description:
-        "As part of a team of seven, I contributed as a frontend developer to building a high-traffic event registration website for Anokha '24, which successfully managed over 1,000 participant registrations. I played a key role in designing a responsive and visually engaging interface using Tailwind CSS and GSAP, leading to a 30% increase in user engagement. Additionally, I worked on optimizing code and implementing asset-loading best practices, ensuring a fast and seamless user experience.",
-      githubLink: "https://github.com/anokha-24/anokha_web",
-      image: "/Anokha2.png",
     },
     {
       number: 5,
@@ -58,6 +59,16 @@ export default function Projects() {
     },
     {
       number: 6,
+      name: "Anokha 2024",
+      tags: ["Frontend", "Team project", "Uni-techfest"],
+      techStack: ["NextJS", "TailwindCSS", "GSAP"],
+      description:
+        "As part of a team of seven, I contributed as a frontend developer to building a high-traffic event registration website for Anokha '24, which successfully managed over 1,000 participant registrations. I played a key role in designing a responsive and visually engaging interface using Tailwind CSS and GSAP, leading to a 30% increase in user engagement. Additionally, I worked on optimizing code and implementing asset-loading best practices, ensuring a fast and seamless user experience.",
+      githubLink: "https://github.com/anokha-24/anokha_web",
+      image: "/Anokha2.png",
+    },
+    {
+      number: 7,
       name: "Molecule Visualizer",
       tags: ["DSA", "Coursework", "3D Visualization"],
       techStack: ["ReactJS", "PlotlyJS", "Gemmini API", "MUI"],
@@ -67,7 +78,7 @@ export default function Projects() {
       image: "/Molecule-Visualizer.png",
     },
     {
-      number: 7,
+      number: 8,
       name: "Library Management V2",
       tags: ["Coursework", "Full-stack", "Database"],
       techStack: ["VueJS", "Flask", "SQLite", "TailwindCSS"],
@@ -77,7 +88,7 @@ export default function Projects() {
       image: "/LibraryMgmtV2.jpeg",
     },
     {
-      number: 8,
+      number: 9,
       name: "Library Management",
       tags: ["Backend", "CourseWork", "Database"],
       techStack: ["HTML", "CSS", "Jinja2", "Flask"],
@@ -87,7 +98,7 @@ export default function Projects() {
       image: "/LibraryMgmt.jpeg",
     },
     {
-      number: 9,
+      number: 10,
       name: "FC Team Forge",
       tags: ["Full-Stack", "Football", "Algorithm"],
       techStack: ["VueJS", "TailwindCSS", "Ngrok", "MySQL"],
@@ -97,7 +108,7 @@ export default function Projects() {
       image: "/FC-Team-Forge.png",
     },
     {
-      number: 10,
+      number: 11,
       name: "AI Study Mate",
       tags: ["Frontend", "AI Chatbot", "UI/UX"],
       techStack: ["VueJS", "TailwindCSS", "Gemmini API"],
@@ -107,7 +118,7 @@ export default function Projects() {
       image: "/AI-Study-Mate.png",
     },
     {
-      number: 11,
+      number: 12,
       name: "Union Budget Explorer",
       tags: ["DBMS", "CourseWork", "Team project"],
       techStack: ["VueJS", "MySQL", "NodeJS"],
