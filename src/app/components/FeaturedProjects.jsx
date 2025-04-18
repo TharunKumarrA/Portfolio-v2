@@ -5,23 +5,25 @@ const FeaturedProjects = () => {
   const projectData = [
     {
       number: 1,
-      name: "Anokha 2024",
-      tags: ["Frontend", "Team project", "Uni-techfest"],
-      techStack: ["NextJS", "TailwindCSS", "GSAP"],
+      name: "SustAIn",
+      tags: ["Sustainability", "AI", "Chrome Extension"],
+      techStack: ["ReactJS", "Flask", "Vertex AI", "AutoML", "ExpressJS"],
       description:
-        "As part of a team of seven, I contributed as a frontend developer to building a high-traffic event registration website for Anokha '24, which successfully managed over 1,000 participant registrations. I played a key role in designing a responsive and visually engaging interface using Tailwind CSS and GSAP, leading to a 30% increase in user engagement. Additionally, I worked on optimizing code and implementing asset-loading best practices, ensuring a fast and seamless user experience.",
-      githubLink: "https://github.com/anokha-24/anokha_web",
-      image: "/Anokha2.png",
+        "Co-developed SustAIn, a browser extension that displays real-time carbon emissions and power consumption metrics for AI web platforms. Used by 25+ users and submitted to the GDG On-Campus Solutions Challenge 2025. The system uses a lightweight ML model trained with Google AutoML on Vertex AI to classify user queries and estimate their environmental impact. The frontend is optimized for performance and resiliency with retry, fallback, and timeout logic—cutting latency spikes by 40%.",
+      githubLink: "https://github.com/SustAIn-GDG/SustAIn-Chrome-Extension",
+      link: "https://chromewebstore.google.com/detail/sustain/bhjkhbmcamcpeebfobejnhnkghkfhegp?utm_source=item-share-cb",
+      image: "/SustAIn.png",
     },
     {
       number: 2,
-      name: "Mediclined",
-      tags: ["Hackathon", "Dashboard", "Team project"],
-      techStack: ["NextJS", "NodeJS", "MongoDB", "mySql", "ESP32"],
+      name: "Pragati '25",
+      tags: ["Frontend", "AI Chatbot", "Uni-fest"],
+      techStack: ["NextJS", "TailwindCSS", "GSAP", "Vertex AI", "NodeJS"],
       description:
-        "Our project, Mediclined, was developed for the Healthcare track at Evolumin National Level Hackathon 2024, aiming to transform healthcare services within a university setting. It integrates features like real-time doctor tracking, an online pharmacy, and secure medical records to enhance health outcomes for students. Built in just 36 hours, Mediclined evolved through critical feedback during two intense judging rounds, pushing us to refine and deliver a polished prototype. Though we didn’t win, making it to the Top 10 among numerous talented teams was a proud moment, showcasing our dedication, teamwork, and innovation.",
-      githubLink: "https://github.com/Project-Mediclined",
-      image: "/Mediclined.png",
+        "Led a 14-member team for Pragati '25, the official business fest website of Amrita School of Business. Enhanced mobile UI/UX, doubling daily active users and reducing bounce rate by 15%. Integrated an AI-powered chatbot using Vertex AI, PayU payment system, and supported over 360 successful registrations. The site featured GSAP-based animations and responsive design for seamless interactions.",
+      githubLink: "https://github.com/Pragati-2025/",
+      link: "https://pragati-frontend-2025.vercel.app/",
+      image: "/Pragati.png",
     },
   ];
 

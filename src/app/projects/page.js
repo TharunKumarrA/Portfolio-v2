@@ -5,6 +5,28 @@ export default function Projects() {
   const projectData = [
     {
       number: 1,
+      name: "SustAIn",
+      tags: ["Sustainability", "AI", "Chrome Extension"],
+      techStack: ["ReactJS", "Flask", "Vertex AI", "AutoML", "ExpressJS"],
+      description:
+        "Co-developed SustAIn, a browser extension that displays real-time carbon emissions and power consumption metrics for AI web platforms. Used by 25+ users and submitted to the GDG On-Campus Solutions Challenge 2025. The system uses a lightweight ML model trained with Google AutoML on Vertex AI to classify user queries and estimate their environmental impact. The frontend is optimized for performance and resiliency with retry, fallback, and timeout logic—cutting latency spikes by 40%.",
+      githubLink: "https://github.com/SustAIn-GDG/SustAIn-Chrome-Extension",
+      link: "https://chromewebstore.google.com/detail/sustain/bhjkhbmcamcpeebfobejnhnkghkfhegp?utm_source=item-share-cb",
+      image: "/SustAIn.png",
+    },
+    {
+      number: 2,
+      name: "Pragati '25",
+      tags: ["Frontend", "AI Chatbot", "Uni-fest"],
+      techStack: ["NextJS", "TailwindCSS", "GSAP", "Vertex AI", "NodeJS"],
+      description:
+        "Led a 14-member team for Pragati '25, the official business fest website of Amrita School of Business. Enhanced mobile UI/UX, doubling daily active users and reducing bounce rate by 15%. Integrated an AI-powered chatbot using Vertex AI, PayU payment system, and supported over 360 successful registrations. The site featured GSAP-based animations and responsive design for seamless interactions.",
+      githubLink: "https://github.com/Pragati-2025/",
+      link: "https://pragati-frontend-2025.vercel.app/",
+      image: "/Pragati.png",
+    },
+    {
+      number: 3,
       name: "Portfolio",
       tags: ["Frontend", "Personal", "Portfolio"],
       techStack: ["NextJS", "TailwindCSS", "Framer"],
@@ -15,7 +37,7 @@ export default function Projects() {
       image: "/Portfolio.png",
     },
     {
-      number: 2,
+      number: 4,
       name: "Anokha 2024",
       tags: ["Frontend", "Team project", "Uni-techfest"],
       techStack: ["NextJS", "TailwindCSS", "GSAP"],
@@ -25,7 +47,7 @@ export default function Projects() {
       image: "/Anokha2.png",
     },
     {
-      number: 3,
+      number: 5,
       name: "Mediclined",
       tags: ["Hackathon", "Dashboard", "Team project"],
       techStack: ["NextJS", "NodeJS", "MongoDB", "mySql", "ESP32"],
@@ -35,7 +57,7 @@ export default function Projects() {
       image: "/Mediclined.png",
     },
     {
-      number: 4,
+      number: 6,
       name: "Molecule Visualizer",
       tags: ["DSA", "Coursework", "3D Visualization"],
       techStack: ["ReactJS", "PlotlyJS", "Gemmini API", "MUI"],
@@ -45,7 +67,7 @@ export default function Projects() {
       image: "/Molecule-Visualizer.png",
     },
     {
-      number: 5,
+      number: 7,
       name: "Library Management V2",
       tags: ["Coursework", "Full-stack", "Database"],
       techStack: ["VueJS", "Flask", "SQLite", "TailwindCSS"],
@@ -55,7 +77,7 @@ export default function Projects() {
       image: "/LibraryMgmtV2.jpeg",
     },
     {
-      number: 6,
+      number: 8,
       name: "Library Management",
       tags: ["Backend", "CourseWork", "Database"],
       techStack: ["HTML", "CSS", "Jinja2", "Flask"],
@@ -65,7 +87,7 @@ export default function Projects() {
       image: "/LibraryMgmt.jpeg",
     },
     {
-      number: 7,
+      number: 9,
       name: "FC Team Forge",
       tags: ["Full-Stack", "Football", "Algorithm"],
       techStack: ["VueJS", "TailwindCSS", "Ngrok", "MySQL"],
@@ -75,7 +97,7 @@ export default function Projects() {
       image: "/FC-Team-Forge.png",
     },
     {
-      number: 8,
+      number: 10,
       name: "AI Study Mate",
       tags: ["Frontend", "AI Chatbot", "UI/UX"],
       techStack: ["VueJS", "TailwindCSS", "Gemmini API"],
@@ -85,7 +107,7 @@ export default function Projects() {
       image: "/AI-Study-Mate.png",
     },
     {
-      number: 9,
+      number: 11,
       name: "Union Budget Explorer",
       tags: ["DBMS", "CourseWork", "Team project"],
       techStack: ["VueJS", "MySQL", "NodeJS"],
