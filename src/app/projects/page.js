@@ -28,7 +28,7 @@ export default function Projects() {
     {
       number: 3,
       name: "Amritotsavam 2025",
-      tags: ["Full-Stack", "College Fest", "Admin Dashboard"],
+      tags: ["Full-Stack", "Uni-Fest", "Admin Dashboard"],
       techStack: ["NextJS", "TailwindCSS", "NodeJS"],
       description:
         "Led the complete development of the official website for Amritotsavam 2025, the cultural fest of Amrita Vishwa Vidyapeetham. The platform successfully managed over 2,500 registrations across 50+ cultural events and workshops. In addition to the main site, an internal admin dashboard was built to help organizers track signups, manage events, and monitor real-time stats. Designed for performance and scalability, the system remained reliable during peak usage periods.",
