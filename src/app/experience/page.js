@@ -4,6 +4,8 @@ import AnokhaAttributes from "../components/AnokhaAttributes";
 import IETEAttributes from "../components/IETEAttributes";
 import ASCIIAttributes from "../components/ASCIIAttributes";
 import LogicFloAttributes from "../components/LogicFloAttributes";
+import PragatiAttributes from "../components/PragatiAttributes";
+import AmritotsavamAttributes from "../components/AmritotsavamAttributes"; // 👈 Add this
 
 export default function Experience() {
   const experienceData = [
@@ -21,7 +23,13 @@ export default function Experience() {
       attList: <LogicFloAttributes />,
     },
     {
-      expImages: ["/DSC_0470.JPG", "/DSC_0367.JPG", "/DSC_0053.JPG", "/DSC_1618.JPG", "/DSC_0173.JPG"],
+      expImages: [
+        "/DSC_0470.JPG",
+        "/DSC_0367.JPG",
+        "/DSC_0053.JPG",
+        "/DSC_1618.JPG",
+        "/DSC_0173.JPG",
+      ],
       expImgAlt: "NSS",
       role: ["NSS Student", "Coordinator"],
       company: "NSS",
@@ -34,9 +42,23 @@ export default function Experience() {
       attList: <NSSAttributes />,
     },
     {
+      expImages: ["/Pragati_2.jpg", "/Pragati.png", "/Pragati_3.png"],
+      expImgAlt: "Pragati",
+      role: ["Lead Project", "Coordinator"],
+      company: "Pragati '25",
+      companyDetails:
+        "Pragati is the flagship techno-cultural-management fest by the Amrita School of Business, showcasing innovation through technology, sustainability, and AI-powered solutions.",
+      start: "DEC 2024",
+      end: "APR 2025",
+      expDetails:
+        "Led frontend development for Pragati '25 – built the official website, admin panel, and an OpenAI-powered chatbot. Also worked as a Project Coordinator ensuring timely delivery and smooth collaboration across 3 teams of 14 members.",
+
+      attList: <PragatiAttributes />,
+    },
+    {
       expImages: ["/DSC_0054.jpg", "/DSC_0054_1.jpg"],
       expImgAlt: "Anokha WebDev",
-      role: ["Web", "Development"],
+      role: ["Frontend", "Developer"],
       company: "Anokha",
       companyDetails:
         "Anokha, the National Techfest of Amrita Vishwa Vidyapeetham, Coimbatore campus, is a 3-day technical congregation of the brightest minds in India.",
@@ -47,16 +69,33 @@ export default function Experience() {
       attList: <AnokhaAttributes />,
     },
     {
-      expImages: ["/DSC_0055.JPG"],
+      expImages: [
+        "/Amritotsavam.png",
+        "/Amritotsavam_2.jpg",
+        "/Amritotsavam_3.jpg",
+      ],
+      expImgAlt: "Amritotsavam",
+      role: ["Web Dev", "Coordinator"],
+      company: "Amritotsavam '25",
+      companyDetails:
+        "Amritotsavam is the annual cultural fest of Amrita Vishwa Vidyapeetham, Coimbatore, featuring vibrant performances, events, and celebrations of tradition and creativity.",
+      start: "FEB 2025",
+      end: "MAR 2025",
+      expDetails:
+        "Built and deployed the official Amritotsavam 2025 website. Handled complete frontend development, coordinated with the cultural team for dynamic content, and ensured smooth user flow for 2500+ registrations.",
+      attList: <AmritotsavamAttributes />,
+    },
+    {
+      expImages: ["/IETE_2.JPG", "/IETE_3.jpg", "/DSC_0055.JPG"],
       expImgAlt: "IEEE",
-      role: ["IETE Web", "Dev Head"],
+      role: ["IETE Web", "Dev Lead"],
       company: "IETE",
       companyDetails:
         "The IETE Club at Amrita Vishwa Vidyapeetham bridges computer science and electronics, offering opportunities in AI, web development, robotics, and event management through workshops, hackathons, and guest lectures.",
       start: "NOV 2024",
       end: "Present",
       expDetails:
-        "As Web Development Lead for a team of 7, I oversaw the design, coding, and deployment of web solutions, ensuring timely delivery and high quality. I mentored team members, facilitated communication, and was actively involved in conducting workshops to enhance skills within the team.",
+        "As Web Development Lead, I oversaw the design and development of the IETE website. Additionally, I played a key role in the successful conduction of WebX – a 3-hour web development challenge for students, overseeing the event, guiding participants, and judging the submissions.",
       attList: <IETEAttributes />,
     },
     {
@@ -73,6 +112,7 @@ export default function Experience() {
       attList: <ASCIIAttributes />,
     },
   ];
+
   return (
     <div>
       <ExpMainDiv experienceData={experienceData} />
