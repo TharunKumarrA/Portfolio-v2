@@ -27,6 +27,16 @@ export default function Projects() {
     },
     {
       number: 3,
+      name: "Raga Classifier",
+      tags: ["Machine Learning", "Audio Analysis", "Indian Classical"],
+      techStack: ["Python", "TensorFlow", "Streamlit"],
+      description:
+        "An ML-powered web application that identifies Indian classical ragas from audio input using a hybrid CNN-LSTM model built with TensorFlow and deployed via Streamlit.",
+      githubLink: "https://github.com/ananthakrishna7/dl-raga-classifier",
+      image: "/Raga-Classifier.webp",
+    },
+    {
+      number: 4,
       name: "Amritotsavam 2025",
       tags: ["Full-Stack", "Uni-Fest", "Admin Dashboard"],
       techStack: ["NextJS", "TailwindCSS", "NodeJS"],
@@ -37,7 +47,7 @@ export default function Projects() {
       image: "/Amritotsavam.png",
     },
     {
-      number: 4,
+      number: 5,
       name: "Portfolio",
       tags: ["Frontend", "Personal", "Portfolio"],
       techStack: ["NextJS", "TailwindCSS", "Framer"],
@@ -48,7 +58,7 @@ export default function Projects() {
       image: "/Portfolio.png",
     },
     {
-      number: 5,
+      number: 6,
       name: "Mediclined",
       tags: ["Hackathon", "Dashboard", "Team project"],
       techStack: ["NextJS", "NodeJS", "MongoDB", "mySql", "ESP32"],
@@ -58,7 +68,7 @@ export default function Projects() {
       image: "/Mediclined.png",
     },
     {
-      number: 6,
+      number: 7,
       name: "Anokha 2024",
       tags: ["Frontend", "Team project", "Uni-techfest"],
       techStack: ["NextJS", "TailwindCSS", "GSAP"],
@@ -68,7 +78,7 @@ export default function Projects() {
       image: "/Anokha2.png",
     },
     {
-      number: 7,
+      number: 8,
       name: "Molecule Visualizer",
       tags: ["DSA", "Coursework", "3D Visualization"],
       techStack: ["ReactJS", "PlotlyJS", "Gemmini API", "MUI"],
@@ -78,7 +88,7 @@ export default function Projects() {
       image: "/Molecule-Visualizer.png",
     },
     {
-      number: 8,
+      number: 9,
       name: "Library Management V2",
       tags: ["Coursework", "Full-stack", "Database"],
       techStack: ["VueJS", "Flask", "SQLite", "TailwindCSS"],
@@ -88,7 +98,7 @@ export default function Projects() {
       image: "/LibraryMgmtV2.jpeg",
     },
     {
-      number: 9,
+      number: 10,
       name: "Library Management",
       tags: ["Backend", "CourseWork", "Database"],
       techStack: ["HTML", "CSS", "Jinja2", "Flask"],
@@ -98,7 +108,7 @@ export default function Projects() {
       image: "/LibraryMgmt.jpeg",
     },
     {
-      number: 10,
+      number: 11,
       name: "FC Team Forge",
       tags: ["Full-Stack", "Football", "Algorithm"],
       techStack: ["VueJS", "TailwindCSS", "Ngrok", "MySQL"],
@@ -108,7 +118,7 @@ export default function Projects() {
       image: "/FC-Team-Forge.png",
     },
     {
-      number: 11,
+      number: 12,
       name: "AI Study Mate",
       tags: ["Frontend", "AI Chatbot", "UI/UX"],
       techStack: ["VueJS", "TailwindCSS", "Gemmini API"],
@@ -118,7 +128,7 @@ export default function Projects() {
       image: "/AI-Study-Mate.png",
     },
     {
-      number: 12,
+      number: 13,
       name: "Union Budget Explorer",
       tags: ["DBMS", "CourseWork", "Team project"],
       techStack: ["VueJS", "MySQL", "NodeJS"],
