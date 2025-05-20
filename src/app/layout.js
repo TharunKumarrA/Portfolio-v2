@@ -25,9 +25,9 @@ export const metadata = {
     "Tharun Kumarr, Portfolio, Frontend Developer, Web Developer, Tech Enthusiast",
   author: "Tharun Kumarr A",
   icons: {
-    icon: "/cosmos-logo.ico",
-    apple: "/cosmos-logo.ico",
-    shortcut: "/cosmos-logo.ico",
+    icon: "/tharun-sigil.ico",
+    apple: "/tharun-sigil.ico",
+    shortcut: "/tharun-sigil.ico",
   },
   themeColor: "#D8392B",
   openGraph: {

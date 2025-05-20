@@ -11,8 +11,14 @@ const ProfileImage = ({ imgSrc, altText }) => {
         height={520}
         className="rounded-full mx-auto"
       />
-      <div className="absolute bottom-0 -left-10 lg:bottom-2 lg:left-2 transform scale-50 lg:scale-75">
-        <CosmosLogo />
+      <div className="absolute -bottom-5 -left-10 lg:-bottom-10 lg:-left-5 transform scale-50 lg:scale-75">
+        <Image
+          src="/tharun-sigil.png"
+          alt="Tharun Sigil"
+          width={200}
+          height={200}
+          className="rounded-full"
+        />
       </div>
     </div>
   );
